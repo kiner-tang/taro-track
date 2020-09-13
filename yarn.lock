@@ -894,10 +894,10 @@
     "@kiner/taro-track-common" "0.0.1"
     "@kiner/taro-track-corejs" "0.0.3"
 
-"@kiner/taro-track-entrypoint@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.npmjs.org/@kiner/taro-track-entrypoint/-/taro-track-entrypoint-0.0.3.tgz#4c36b5b501d8466ec67fa07f01856ef2d679b2b5"
-  integrity sha512-EU0UK4U7e2RhZ1Gq3n/+3RcOKIIpLTO9aFu0+TBF+yaZnbzHJGuzrHaUTofsv4eR22JZnxMTxW1/NqYWaB7WLw==
+"@kiner/taro-track-entrypoint@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.npmjs.org/@kiner/taro-track-entrypoint/-/taro-track-entrypoint-0.0.4.tgz#9725dbeb9d2ae110deac51b54b198a3ce09d6233"
+  integrity sha512-wF2EKyMrF6PRWrpfqFS/jwVl22VClDjtam7fF9GK9CdDxIUmxW7d7t72hqm6/wiIYxduChtUEKGzQbUg5EKmmQ==
   dependencies:
     "@kiner/taro-track-common" "0.0.1"
     "@kiner/taro-track-corejs" "0.0.3"
@@ -911,10 +911,10 @@
   dependencies:
     "@taro-track/track" "0.0.4"
 
-"@kiner/taro-track-plugins@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.npmjs.org/@kiner/taro-track-plugins/-/taro-track-plugins-0.0.2.tgz#e492c800077129dc0884d7edb37ec5a80634f17b"
-  integrity sha512-rJES1nc9wJ5mMfXeCij0a9wK84DDi7H+bANRVGFYecx7nAVn/lvaVqZuVtkRW3AgHwhAKHhcMLBnMUJoBU/ojA==
+"@kiner/taro-track-plugins@0.0.5":
+  version "0.0.5"
+  resolved "https://registry.npmjs.org/@kiner/taro-track-plugins/-/taro-track-plugins-0.0.5.tgz#a883561d0c2b16f1fd1ee24079ab6e4d4321476e"
+  integrity sha512-1xFhOIAlwxxwd2iL8QkDfuGwsuALnSbAEZkQCb3M5MwQm1+QCwYqmDvfgUBbSsDVt8eOR0o0oyWHlDYhVx3ztA==
   dependencies:
     fs-extra "^9.0.0"
     shelljs "^0.8.4"

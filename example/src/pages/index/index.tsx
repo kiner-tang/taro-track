@@ -34,7 +34,7 @@ export default class Index extends Component {
           className="pic2"
           onError={() => console.log("图片加载失败")}
           onClick={() => console.log("点击了图片")}
-          src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2724409193,2018760642&fm=26&gp=0.jpg1"
+          src="https://ss1.bdstatic.com/7022cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2724409193,2018760642&fm=26&gp=0.jpg1"
         />
         <Image
           id="pic"

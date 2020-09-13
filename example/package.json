@@ -29,7 +29,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@kiner/taro-track-main": "0.0.2",
+    "@kiner/taro-track-main": "^0.0.3",
     "@tarojs/components": "2.1.5",
     "@tarojs/components-qa": "2.1.5",
     "@tarojs/router": "2.1.5",

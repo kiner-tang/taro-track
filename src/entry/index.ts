@@ -69,9 +69,7 @@ export function initDolphin(opts: InitOptions) {
     app_version: AppVersion,
     pv_id: shortid(),
     ignored: [
-      `https://ylog.hiido.com`,
-      `https://log.100.com`,
-      `https://logservertest.100.com`
+      `https://xxx.xxx.com`
     ],
     isTaro: opts.isTaro
   });

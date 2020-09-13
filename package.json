@@ -84,9 +84,9 @@
     "@kiner/taro-track-common": "^0.0.1",
     "@kiner/taro-track-corejs": "0.0.3",
     "@kiner/taro-track-datasource": "^0.0.3",
-    "@kiner/taro-track-entrypoint": "^0.0.3",
+    "@kiner/taro-track-entrypoint": "0.0.4",
     "@kiner/taro-track-main": "^0.0.1",
-    "@kiner/taro-track-plugins": "0.0.2",
+    "@kiner/taro-track-plugins": "0.0.5",
     "@kiner/taro-track-transporter": "0.0.2",
     "@taro-track/track": "0.0.7"
   }

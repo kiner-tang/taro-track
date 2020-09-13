@@ -984,10 +984,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@kiner/taro-track-main@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.npmjs.org/@kiner/taro-track-main/-/taro-track-main-0.0.2.tgz#d341c655a449f117c90e8e70a2904ffbc8341348"
-  integrity sha512-I/MqFbnWY77FGoPsWFR71bL3PEnbNlxxErGFOngfosID2endsHjhgt0IJnNNfu+o07VP16+UHJooMyi6Z2fnHA==
+"@kiner/taro-track-main@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.npmjs.org/@kiner/taro-track-main/-/taro-track-main-0.0.3.tgz#b35c371d018eecc3b76fbeec8d4edacbe1188f36"
+  integrity sha512-IaX87MwgbHL1CtBI8VfGgpBqvTDjBm2nQqF/TPtolnRibxjA8UhiN2BZMnEgJH/P3Ezoo6pNVQsbMstPf7bHZw==
   dependencies:
     "@taro-track/track" "0.0.4"
 

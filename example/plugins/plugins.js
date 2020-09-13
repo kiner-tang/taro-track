@@ -3199,9 +3199,7 @@ function initDolphin(opts) {
         app_version: AppVersion,
         pv_id: Object(_kiner_taro_track_corejs__WEBPACK_IMPORTED_MODULE_1__["shortid"])(),
         ignored: [
-            `https://ylog.hiido.com`,
-            `https://log.100.com`,
-            `https://logservertest.100.com`
+            `https://xxx.xxx.com`
         ],
         isTaro: opts.isTaro
     });
