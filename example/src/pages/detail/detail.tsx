@@ -40,14 +40,14 @@ export default class Detail extends Component {
 
   private async download() {
     const res = await downloadFile({
-      url: `http://edu100.bs2dl.yy.com/hippo/8952575a0dd1d8b07f089471876763400da7148e.png`
+      url: `http://test.xxx.com/8952575a0dd1d8b07f089471876763400da7148e.png`
     });
     console.log("download返回结果：", res);
   }
   private async upload() {
     const res = await uploadFile({
       url:
-        "http://edu100.bs2dl.yy.com/hippo/8952575a0dd1d8b07f089471876763400da7148e.png",
+        "http://test.xxx.com/hippo/8952575a0dd1d8b07f089471876763400da7148e.png",
       filePath: "/banner",
       name: "testBanner"
     });
