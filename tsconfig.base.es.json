@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "es6",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "target": "es6",
+    "downlevelIteration": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "noUnusedParameters": false,
+    "noUnusedLocals": false,
+    "skipLibCheck": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "traceResolution": true,
+    "lib": [
+      "es7",
+      "dom"
+    ],
+    "paths": {
+      "@/src/*": ["./src/*"],
+      "@/core/*": ["./src/core/*"],
+      "@/common/*": ["./src/common/*"],
+      "@/datasource/*": ["./src/datasource/*"],
+      "@/transporter/*": ["./src/transporter/*"],
+      "@/entry/*": ["./src/entry/*"]
+    },
+    "typeRoots": [
+      "./typings",
+      "./node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

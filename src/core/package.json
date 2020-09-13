@@ -1,0 +1,17 @@
+{
+  "name": "@kiner/taro-track-corejs",
+  "version": "0.0.3",
+  "description": "一些基础代码和数据结构",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "@kiner/taro-track-common": "0.0.1"
+  }
+}

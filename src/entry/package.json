@@ -1,0 +1,19 @@
+{
+  "name": "@kiner/taro-track-entrypoint",
+  "version": "0.0.4",
+  "description": "项目主入口",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@kiner/taro-track-common": "0.0.1",
+    "@kiner/taro-track-corejs": "0.0.3",
+    "@kiner/taro-track-datasource": "0.0.3",
+    "@kiner/taro-track-transporter": "0.0.2"
+  }
+}

@@ -1,0 +1,35 @@
+.index {
+  padding-top: 100px;
+  .title {
+    text-align: center;
+    color: cornflowerblue;
+    font-size: 32px;
+  }
+  .btn {
+    width: 80vw;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background: cornflowerblue;
+    color: #ffffff;
+    font-size: 32px;
+    border-radius: 10px;
+    margin: 50px auto;
+  }
+  image {
+    width: 80vw;
+    display: block;
+    margin: 30px auto;
+  }
+  input {
+    width: 80vw;
+    border: 1px solid cornflowerblue;
+    height: 80px;
+    font-size: 32px;
+    border-radius: 10px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    display: block;
+    margin: 30px auto;
+  }
+}

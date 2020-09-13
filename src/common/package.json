@@ -1,0 +1,12 @@
+{
+  "name": "@kiner/taro-track-common",
+  "version": "0.0.1",
+  "description": "公共接口和配置的定义",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
