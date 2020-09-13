@@ -1,0 +1,32 @@
+language: node_js
+
+node_js:
+  - "stable"
+  - "8"
+
+sudo: false
+
+env:
+  - YARN=1.22.4
+
+branches:
+  only:
+  - master
+
+before_install:
+ - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version ${YARN}
+ - export PATH="$HOME/.yarn/bin:$PATH"
+
+install:
+  - yarn install
+
+cache:
+  yarn: true
+  directories:
+    - "node_modules"
+
+git:
+  depth: 1
+
+script:
+  - npm test

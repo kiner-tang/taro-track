@@ -1,0 +1,19 @@
+# source
+**/*.ts
+*.ts
+*.spec.ts
+
+# definitions
+!**/*.d.ts
+!*.d.ts
+
+# test case
+test
+
+# configuration
+package-lock.json
+tslint.json
+tsconfig.json
+.prettierrc
+
+.idea

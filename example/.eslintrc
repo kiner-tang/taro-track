@@ -1,0 +1,30 @@
+{
+  "extends": ["taro", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "no-unused-vars": ["error", { "varsIgnorePattern": "Taro" }],
+    "react/jsx-filename-extension": [
+      1,
+      { "extensions": [".js", ".jsx", ".tsx"] }
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { "varsIgnorePattern": "Taro" }
+    ],
+    "@typescript-eslint/member-delimiter-style": false,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/no-empty-function": ["warn"],
+    // JSX 属性中一致使用双引号或单引号
+    "jsx-quotes": [2, "prefer-double"],
+    "@typescript-eslint/camelcase": false,
+    "import/no-commonjs": false,
+    "@typescript-eslint/no-var-requires": false
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "useJSXTextNode": true,
+    "project": "./tsconfig.json"
+  }
+}

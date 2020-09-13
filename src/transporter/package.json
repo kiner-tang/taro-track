@@ -1,0 +1,23 @@
+{
+  "name": "@kiner/taro-track-transporter",
+  "version": "0.0.2",
+  "description": "上报通道",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uglify-js": "^3.9.2",
+    "fs-extra": "^9.0.0",
+    "wxml2json": "^2.0.1",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "@kiner/taro-track-common": "0.0.1",
+    "@kiner/taro-track-corejs": "0.0.3"
+  }
+}

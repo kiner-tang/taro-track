@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "target": "es2015",
+    "downlevelIteration": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "noUnusedParameters": false,
+    "noUnusedLocals": false,
+    "skipLibCheck": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "traceResolution": true,
+    "declarationDir": "./dist/",
+    "lib": [
+      "es5",
+      "es7",
+      "dom"
+    ],
+    "paths": {
+      "@/src/*": ["./src/*"],
+      "@/core/*": ["./src/core/*"],
+      "@/common/*": ["./src/common/*"],
+      "@/datasource/*": ["./src/datasource/*"],
+      "@/transporter/*": ["./src/transporter/*"],
+    },
+    "typeRoots": [
+      "./typings",
+      "./node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
