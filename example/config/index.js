@@ -105,7 +105,7 @@ module.exports = function(merge) {
       appName: realConfig.env.appName,
       appVersion: realConfig.env.appVersion,
       appNameZH: realConfig.env.appNameZH,
-      unionId: realConfig.env.unionId,
+      appId: realConfig.env.unionId,
       cookieKey: realConfig.env.cookieKey
     },
     pageWXMLHooks(path, source, emit, type) {

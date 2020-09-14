@@ -34,6 +34,7 @@ export interface InitOptions {
   baseUrl?: string
   transporter: TransporterType
   isTaro?: boolean
+  isPst?: boolean
 }
 
 export { WechatTransporter, TestELKLogServerHost, ELKLogServerHost, TransporterConsole };
@@ -139,7 +140,8 @@ export function initAppletLifecycleListener(
       appVersion,
       appName,
       showLog = false,
-      pstInterval = 5000
+      pstInterval = 5000,
+      isPst = false
     }: InitAppletLifecycleOption,
     extraData: { [key: string]: string } = {},
     allHooks?:(tpr: Transporter, methodName: string, options: OverrideWechatPageInitOptions)=>{ [key: string]: string }
@@ -179,6 +181,7 @@ export function initAppletLifecycleListener(
 
     const extraExt = extraData.ext || {};
 
+
     function sendPv() {
       const now = Date.now();
       const sendData = {
@@ -193,7 +196,7 @@ export function initAppletLifecycleListener(
         }
       };
 
-      tpr.send(sendData, () => showLog && logger.info(`applet-pv上报成功`, sendData));
+      tpr.send(sendData);
     }
 
     function sendPst() {
@@ -210,7 +213,7 @@ export function initAppletLifecycleListener(
           url: getWxCurrentHref()
         }
       };
-      tpr.send(sendPstData, () => showLog && logger.info(`applet-pst上报成功`, sendPstData));
+      tpr.send(sendPstData);
     }
 
     function sendPvOut() {
@@ -228,11 +231,11 @@ export function initAppletLifecycleListener(
           url: baseFields.url
         }
       };
-      tpr.send(sendPvOutData, () => showLog && logger.info(`applet-pvout上报成功`, sendPvOutData));
+      tpr.send(sendPvOutData);
     }
 
 
-    // console.log(`taro-track/entry[${methodName}]`);
+    console.log(`taro-track/entry[${methodName}]`);
     switch (CompAndPageHookMap[methodName]) {
       case proxyWxLifeHooks.onReady:
       case proxyWxLifeHooks.ready:
@@ -241,11 +244,14 @@ export function initAppletLifecycleListener(
           sendPvOut();
         }
         sendPv();
-        timer = setInterval(() => {
+        if(isPst){
+          timer = setInterval(() => {
 
-          sendPst();
+            sendPst();
 
-        }, pstInterval);
+          }, pstInterval);
+        }
+
         break;
       case proxyWxLifeHooks.onUnload:
       case proxyWxLifeHooks.detached:
