@@ -1,12 +1,11 @@
 import Taro, { Component, Config } from '@tarojs/taro';
 
+import { initAppletLifecycleListener, initDolphin } from '@kiner/taro-track-main/entry';
 
 import Index from './pages/index';
 
 import './app.scss';
 import { appId, appName, appVersion, dolphinBaseConfig, openId, unionId } from './config';
-// @ts-ignore
-import { initAppletLifecycleListener, initDolphin } from '../../src/entry';
 
 // 通过代理微信原生小程序的Component实现对页面组件生命周期的监听
 function initLifecycleListener() {
