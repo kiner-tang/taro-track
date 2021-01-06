@@ -1,6 +1,4 @@
 const path = require('path');
-const EsmWebpackPlugin = require('@purtuga/esm-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const env = process.env.NODE_ENV;
 
@@ -33,14 +31,6 @@ module.exports = {
       }
     ]
   },
-  plugins: [
-    new CopyWebpackPlugin([
-      {
-        from: path.resolve(__dirname, '../src/plugins/package.json'),
-        to: `${outputPath}/package.json`
-      }
-    ])
-  ],
   resolve: {
     alias: {
       "@/src": path.resolve(__dirname, '../src'),
