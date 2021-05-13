@@ -1,6 +1,6 @@
 {
   "name": "@kiner/taro-track-plugins",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "webpack plugin for taro",
   "main": "lib/index.js",
   "module": "es/index.js",

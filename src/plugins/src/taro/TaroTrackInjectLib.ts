@@ -110,10 +110,10 @@ export function commonBaseField() {
   return `
     exports.commonBaseField = async function(){
 
-      const common = __webpack_require__("../node_modules/${packageNameDatasource}/es/index.js");
+      const common = __webpack_require__("./node_modules/${packageNameDatasource}/es/index.js");
       console.log(common);
       const { getBaseFields } = common;
-      const { getWxCurrentHref, getWxSystemInfo }  = __webpack_require__("../node_modules/${packageNameCore}/es/index.js");
+      const { getWxCurrentHref, getWxSystemInfo }  = __webpack_require__("./node_modules/${packageNameCore}/es/index.js");
       const baseFields = await getBaseFields();
       const wxSystemInfo = getWxSystemInfo();
       return {
@@ -127,7 +127,7 @@ export function commonBaseField() {
 export function getUserInfo(cookieKey: string="AUTH-INFO") {
   return `
     exports.getUserInfo = function(){
-      const { storage }  = __webpack_require__("../node_modules/${packageNameCore}/es/index.js");
+      const { storage }  = __webpack_require__("./node_modules/${packageNameCore}/es/index.js");
       return storage(${JSON.stringify(cookieKey)});
     }
   `;

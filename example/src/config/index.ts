@@ -1,4 +1,4 @@
-import { InitAppletLifecycleOption, TransporterType } from '@kiner/taro-track-main/entry';
+import { InitAppletLifecycleOption, TransporterType } from '@kiner/track/entry';
 
 export const appName = process.env.appName;
 export const appVersion = process.env.appVersion;

@@ -4,7 +4,7 @@
  * @type {string}
  */
 export const taroTargetVersion = '2.1.5';
-export const packageName = '@kiner/taro-track-main';
+export const packageName = '@kiner/track';
 export const packageNameCommon = '@kiner/taro-track-common';
 export const packageNameCore = '@kiner/taro-track-corejs';
 export const packageNameDatasource = '@kiner/taro-track-datasource';

@@ -4,7 +4,7 @@ const env = process.env.NODE_ENV;
 
 let outputPath;
 if(env==='development'){
-  const outputProject = '/Users/tangwenhui/iCloud/Desktop/kiner/my-github/taro-track/example';
+  const outputProject = '/Users/tangwenhui/kiner/learning/taro-track/example';
   outputPath = `${outputProject}/plugins`;
 }else{
   outputPath = path.resolve(__dirname, '../dist/plugins');

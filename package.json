@@ -1,5 +1,5 @@
 {
-  "name": "@taro-track/track",
+  "name": "@kiner/track",
   "version": "0.0.1",
   "description": "基于taro的小程序数据埋点工具",
   "main": "src/entry/index.ts",
@@ -69,7 +69,6 @@
     "gulp-ts-alias": "1.1.0",
     "gulp-typescript": "^6.0.0-alpha.1",
     "gzip-js": "^0.3.2",
-    "revise-timer": "0.1.1",
     "shelljs": "^0.8.4",
     "ts-loader": "^7.0.1",
     "ts-node": "8.5.2",
@@ -85,9 +84,7 @@
     "@kiner/taro-track-corejs": "0.0.3",
     "@kiner/taro-track-datasource": "^0.0.3",
     "@kiner/taro-track-entrypoint": "0.0.4",
-    "@kiner/taro-track-main": "^0.0.1",
-    "@kiner/taro-track-plugins": "0.0.5",
-    "@kiner/taro-track-transporter": "0.0.2",
-    "@taro-track/track": "0.0.7"
+    "@kiner/taro-track-plugins": "0.0.7",
+    "@kiner/taro-track-transporter": "0.0.2"
   }
 }

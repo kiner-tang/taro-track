@@ -1,11 +1,11 @@
 const path = require('path');
 // 1、插件开发调试阶段可以直接运行开发命令，将插件输出到当前项目目录进行调试，插件部分更改可实时更新，只需重启当前项目的taro服务即可
 // 开发阶段直接引入
-const { TaroTrackPlugins } = require("../plugins/plugins");
+// const { TaroTrackPlugins } = require("../plugins/plugins");
 
-// const {
-//   TaroTrackPlugins
-// } = require('@kiner/taro-track-main/plugins/plugins');
+const {
+  TaroTrackPlugins
+} = require('@kiner/track/plugins/plugins');
 
 const { NODE_ENV:env } = process.env;
 

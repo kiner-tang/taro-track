@@ -1,6 +1,6 @@
 import Taro, { Component, Config } from '@tarojs/taro';
 
-import { initAppletLifecycleListener, initDolphin } from '@kiner/taro-track-main/entry';
+import { initAppletLifecycleListener, initDolphin } from '@kiner/track/entry';
 
 import Index from './pages/index';
 
