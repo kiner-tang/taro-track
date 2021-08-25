@@ -59,7 +59,7 @@ export default class Index extends Component {
           <View className="row">
             {arr.map((_item, index) => (
               <View className="col" key={index}>
-                这是文本 这是文本 这是文本 这是文本
+                测试列表文本
                 {index}
               </View>
             ))}
