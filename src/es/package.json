@@ -1,6 +1,6 @@
 {
   "name": "@kiner/taro-track-es",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "合并编译成es5的taro-track",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -11,6 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kiner-tang/taro-track"
   },
   "devDependencies": {
 

@@ -1,6 +1,6 @@
 {
   "name": "@kiner/taro-track-datasource",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "数据源",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -10,6 +10,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kiner-tang/taro-track"
+  },
   "dependencies": {
     "@kiner/taro-track-common": "0.0.1",
     "@kiner/taro-track-corejs": "0.0.3"

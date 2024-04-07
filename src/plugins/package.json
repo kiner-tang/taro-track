@@ -1,6 +1,6 @@
 {
   "name": "@kiner/taro-track-plugins",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "webpack plugin for taro",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -15,6 +15,10 @@
     "fs-extra": "^9.0.0",
     "wxml2json": "^2.0.1",
     "shelljs": "^0.8.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kiner-tang/taro-track"
   },
   "devDependencies": {
     "@kiner/taro-track-common": "0.0.1",
